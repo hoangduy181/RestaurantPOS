@@ -6,8 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# virtual environments
 respos-venv-1
 virtual-env-1
+
+
 # Distribution / packaging
 .Python
 build/
