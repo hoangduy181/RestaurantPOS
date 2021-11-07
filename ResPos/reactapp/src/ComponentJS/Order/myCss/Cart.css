@@ -1,0 +1,140 @@
+.Cart-Contents{
+    height: 1000px;
+    width: 100%;
+    background-color: #A9493C;
+    padding-left: calc(50% - 800px);
+}
+.Cart{
+    height: 1000px;
+    width: 1600px;
+    background-color: #FFFAE7;
+}
+.Header-Cart{
+    height: 80px;
+    border-bottom:1px solid red;
+    display: flex;
+    background-color: #A9493C;
+}
+.Body-Cart{
+    height: 820px;
+    width:1600px;
+}
+.Footer-Cart{
+    background-color: #FFFAE7;
+    height: 100px;
+    width:1600px;
+    stroke: #A9493C;
+    padding-right: 10px;
+}
+.Cart-Payment{
+ display: flex;
+ justify-content: right;
+}
+.Button-Payment-1,.Button-Payment-2{
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 10px;
+
+}
+.Button-Payment-2{
+    width: 180px;
+}
+.Button-Payment-2 h2{
+    text-align: center;
+}
+.Button-Payment-2,.Button-Payment-1{
+    text-align: right;
+    padding-right: 10px;
+    margin-left: 0px;
+}
+.Button-Payment-3{
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #A9493C;
+    -moz-box-shadow: 4px 4px #666;
+    -webkit-box-shadow: 4px 4px #666;
+    box-shadow: 4px 4px #666;
+}
+.Button-Payment-3 h2{
+    color: whitesmoke;
+    line-height: 70px;
+    border-radius: 40px;
+    height: 100%;
+    width: 100%;
+}
+.Button-Payment-3 :hover{
+     opacity: 0.7;
+     background-color: #8a4138; 
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#8a4138 ;
+}
+.Thumbnail{
+    width: 320px;
+
+}
+.Title{
+    width: 470px;
+}
+.Price{
+    width: 230px;
+}
+.Quantity{
+    width: 310px;
+   
+}
+.Total{
+    width: 230px;
+    padding-left: 10px;
+}
+.Title, .Price, .Quantity{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    stroke: #A9493C;
+}
+.Cart-Nav{
+    height: 100px;
+    width: calc(100% - 210px);
+    stroke: #FBE09A;
+
+}
+.headerCart-Icon{
+    height: 80px;
+    width: 400px;
+    padding-left: 20px;
+    line-height: 80px;
+    display: flex;
+}
+.headerCart-Icon div{
+    height: 80px;
+    margin-right: 20px;
+    color:  #FBE09A;
+    font-size: xxx-large;
+}
+.Cart-Table-Content{
+    height: 720px;
+    width: 100%;
+    background-color: cornsilk;
+    overflow-y: scroll;
+}
+.Table-Header{
+    stroke: #A9493C;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Table-Body{
+    height: 700px;
+    display: block;
+    flex-wrap: wrap;
+    background-color: #FFFAE7;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}

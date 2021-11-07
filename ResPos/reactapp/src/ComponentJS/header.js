@@ -1,7 +1,7 @@
 import React from "react"
 import AppLogo from '../images/logo.png'
 
-import "../ComponentCSS/header.css"
+import "../ComponentCSS/Header.css"
 console.log(AppLogo)
 
 function Header() {
