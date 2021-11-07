@@ -1,0 +1,136 @@
+#ModalContent {
+    border-radius: 20px;
+    background-color: cornsilk;
+    border: 3px solid #c0392b;
+}
+
+#ModalHeader {
+    border-bottom: 0 none;
+    height: 1px;
+}
+
+#closeButton {
+    background-color: #c0392b;
+    border-radius: 50%;
+    margin-top: 1px;
+    opacity: 1;
+}
+
+#ModalBody {
+    height: 400px;
+    display:flex;
+    padding-top: 0;
+}
+
+.DishImage {
+    width: 45%;
+}
+.dish-image{
+    border: 2px solid #c0392b;
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+    margin-right: 80px;
+}
+.DishImage .quantity{
+    height: 80px;
+    text-align: left;
+    margin-top:5px;
+    margin-left: 20px;
+    color: #c0392b;
+    display: block;
+    flex-wrap: wrap;
+
+}
+
+.DishImage .quantity h4 {
+    margin-bottom: 0;
+    height: 30px;
+}
+
+.DishImage .Change-Quantity-1{
+    height: 50px;
+    width: 100%;
+    padding-top:5px;
+    line-height: 37px;
+}
+
+.DishImage .Change-Quantity-1 button{
+    border: 3px solid #c0392b;
+    background-color: #c0392b;
+    color: cornsilk;
+}
+
+.DishImage .Change-Quantity-1 button:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+}
+
+.DishImage .Change-Quantity-1 input{
+    text-align: center;
+    border: 3px solid #c0392b;
+    background-color: cornsilk;
+    font-weight: 700;
+    color: #c0392b;
+}
+
+.DishImage .sideDish {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;;
+}
+
+.DishImage .sideDish #Topping-Selection{
+    width: 250px;
+    background-color: cornsilk;
+    border: 2px solid #c0392b;
+    font-size:18px;
+    color: #c0392b;
+    font-weight: 700;
+}
+
+.DishProperties #properties{
+    text-align: left;
+    height: 150px;
+}
+.DishProperties #properties p{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 40px;
+}
+
+.DishProperties .rating {
+    height: 40px;
+    display:flex
+}
+
+.DishProperties .rating .ratingStar{
+    font-size:25px;
+    color: #f1c40f;
+}
+.DishProperties .note{
+    margin-top: 25px;
+    margin-left:45px;
+}
+.DishProperties .note textarea{
+    height: 100px;
+    width:300px;
+    border: 2px solid #c0392b;
+    border-radius: 4px;
+    line-height: 20px;
+}
+#ModalFooter {
+    border-top: 0 none;
+    justify-content: center;
+    padding-top:0;
+}
+
+#ModalFooter .orderButton{
+    background-color: #c0392b;
+    line-height: 35px;
+    color: cornsilk;
+    border-radius:15px;
+    border:none;
+    width: 16%;
+}

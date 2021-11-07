@@ -1,0 +1,53 @@
+.Menu{
+    background-color:cornsilk;
+    width: auto;
+    height: 1000px;
+    text-align: center;
+}
+.Header-Menu{
+    background-color: #A9493C;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom:2px solid cornsilk ;
+}
+.Fillter{
+    width: calc(100% - 80px);
+    height: 100px;
+    margin: 20px 180px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.MENU, .VOUCHER, .STORE, .ABOUT{
+    height: 100px;
+    width: 20%;
+    text-align: center;
+    line-height: 100px;
+    font-size: xx-large;
+    font-weight: 700;
+    color: white;
+    
+
+}
+.Header-Menu svg g path{
+    stroke: wheat;
+    border-radius: 10px;
+}
+.Cart-Menu,.User,.Logo-Menu{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+#showdish{
+    height: 900px;
+    padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#A9493C;
+    overflow-y: scroll; 
+}
