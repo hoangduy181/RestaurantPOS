@@ -1,6 +1,7 @@
 import React from "react";
-import "./login.css"
+// import "./login.css"
 import LogInButton from "./LogInButton";
+import {Link} from "react-router-dom"
 // component 
 //jsx
 
@@ -12,27 +13,28 @@ function LogIn() {
                 <div className="modal-dialog" role="document">
                     <div className="modal-content rounded-5 shadow">
                     <div className="modal-header p-5 pb-4 border-bottom-0">
-                        <h2 className="fw-bold mb-0">Sign up for free</h2>
+                        <h2 className="fw-bold mb-0">Log in</h2>
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
+                    </div>  
                     <div className="modal-body p-5 pt-0">
                         <form className="">
                         <div className="form-floating mb-3">
-                            <input type="email" className="form-control rounded-4" id="floatingInput" placeholder="name@example.com"></input>
-                            <label for="floatingInput">Email address</label>
+                            <input type="tel" className="form-control rounded-4" id="floatingInput" placeholder="0123456789"></input>
+                            <label for="floatingInput">Phone number</label>
                         </div>
-                        <div className="form-floating mb-3">
+                        <div className="form-floating mb-2">
                             <input type="password" className="form-control rounded-4" id="floatingPassword" placeholder="Password"></input>
                             <label for="floatingPassword">Password</label>
                         </div>
-                        <button className="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Sign up</button>
-                        <small className="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                        <div className="d-flex justify-content-between">
+                          <small class="mb-2"><Link to = "/signup">Sign up</Link></small>
+                          <small class="mb-2"><Link to = "/resetpassword">Forgot password?</Link></small>
+                        </div>
+                        <button className="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Log in</button>
                         <hr className="my-4"></hr>
                         <h2 className="fs-5 fw-bold mb-3">Or use a third-party</h2>
-                        <LogInButton thirdParty = "Log in with Facebook"/>
-                        <LogInButton thirdParty = "Log in with Google"/>
-    
+                        <LogInButton thirdParty = "Log in with Facebook" icon = "#facebook" style = "w-100 py-2 mb-3 btn btn-outline-primary rounded-4"/>
+                        <LogInButton thirdParty = "Log in with Google" icon = "#google" style = "w-100 py-2 mb-1 btn btn-outline-danger rounded-4"/>
                         </form>
                     </div>
                     </div>
