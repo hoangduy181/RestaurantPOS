@@ -24,7 +24,7 @@ function SignUp() {
                             </div>
 
                             <div class="form-floating mb-3">
-                                <input type="tel" class="form-control rounded-4" id="floatingTel" placeholder="0123456789"></input>
+                                <input type="tel" size="10" class="form-control rounded-4" id="floatingTel" placeholder="0123456789"></input>
                                 <label for="floatingTel">Phone number</label>
                             </div>
                             
