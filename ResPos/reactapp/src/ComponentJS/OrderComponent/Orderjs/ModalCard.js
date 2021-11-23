@@ -142,7 +142,7 @@ export default function ModalCard( {dish, addDish} ) {
                     </div>
                 </Modal.Body>
                 <Modal.Footer id="modalFooter" style={{border:'none', justifyContent:'center'}}>
-                    <Button id="orderButton" onClick={handleClose}>Order</Button>
+                    <Button id="orderButton" onClick={handleClose}>Đặt món</Button>
                 </Modal.Footer>
             </Modal>
         </div>

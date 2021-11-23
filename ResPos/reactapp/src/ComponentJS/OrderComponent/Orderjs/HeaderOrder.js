@@ -18,6 +18,7 @@ export default function HeaderOrder({handleFilter}) {
         <div  id = "Header-OrderScreen">
             <div id="Fabars-icon" onClick={showMenu}><FaBars color="#FFFAE7" /></div>
             <ul id="nav">
+                     {/* Link tới trang chính*/}
                     <li><FaHome/></li>
                     <li><Link to="/" style={{color:"#FFFAE7",textDecoration:"none"}}>THỰC ĐƠN</Link></li>
                     <li>KHUYẾN MÃI</li>

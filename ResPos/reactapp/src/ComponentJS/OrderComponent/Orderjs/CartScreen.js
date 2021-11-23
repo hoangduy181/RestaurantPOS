@@ -64,11 +64,11 @@ export default function CartScreen() {
             <div className="totalMoney">
                     <Col xs={12} sm={12} md={12} lg={12} xl={12} as='div' id="totalMoneyforPayment">
                             <Col as='h3' xs={7} sm={9} md={9} lg={9} xl={9}>
-                                <label style={{color:'#A9493C'}}>Total money:</label> ${Total}
+                                <label style={{color:'#A9493C'}}>TỔNG TIỀN:</label> ${Total}
                             </Col>
                             <Col as='div' id="paymentButton" xs={5} sm={3} md={3} lg={3} xl={3}>
                                 {/* LINK tới trang thanh toán */}
-                                <Link to="/"> <button>Payment</button> </Link>
+                                <Link to="/"> <button>THANH TOÁN</button> </Link>
                             </Col>
                     </Col>
             </div>
