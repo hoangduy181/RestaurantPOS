@@ -1,0 +1,143 @@
+.border-radius-2 div{
+    background-color: cornsilk;
+    border-radius: 20px;
+    border:3px solid #A9493C;
+}
+
+#modalHeader{
+    display:inline-block;
+    text-align: right;
+    padding-top: 1%;
+}
+
+#modalHeader .btn-close{
+    border: 0.2vmax solid #A9493C;
+    background-color: #A9493C;
+    border-radius: 50%;
+    opacity: 1;
+    font-size: 1vmax;
+}
+
+#modalBody{
+    display:flex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#modalBody .Half1{
+    width:50%;
+    margin-left: 3%;
+}
+
+#modalBody .Half1 .dishImage{
+    height:55%;
+}
+
+#modalBody .Half1 .dishImage img{
+    width:80%;
+    height:100%;
+}
+
+#modalBody .Half1 .Quantity{
+    color: #A9493C;
+    height:25%;
+}
+
+#modalBody .Half1 .Quantity h4{
+    font-weight: 640;
+    font-size: 2.4vmax;
+    margin-bottom: 0.4%;
+}
+
+#modalBody .Half1 .Quantity .changeQuantity{
+    font-size: 1.7vmax;
+}
+
+#modalBody .Half1 .Quantity .changeQuantity button{
+    width:auto;
+    border: 0.25vmax solid #A9493C;
+    background-color: #A9493C;
+    color: cornsilk;
+    font-size: 1.7vmax;
+}
+
+#modalBody .Half1 .Quantity .changeQuantity button:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+}
+
+#modalBody .Half1 .Quantity .changeQuantity input{
+    text-align: center;
+    border: 0.25vmax solid #A9493C;
+    background-color: cornsilk;
+    font-weight: 700;
+    color: #A9493C;
+    width:25%;
+}
+
+#modalBody .Half1 .dishTopping{
+    height: 15%;
+    color: #A9493C;
+    margin-top: 1%;
+}
+
+#modalBody .Half1 .dishTopping h4{
+    font-weight: 640;
+    font-size: 2.2vmax;
+}
+
+#modalBody .Half1 .dishTopping #toppingSelection{
+    background-color: cornsilk;
+    color: #A9493C;
+    border: 0.2vmax solid #A9493C;
+    width: 50%;
+    font-size: 1.4vmax;
+    font-weight: 600;
+}
+
+#modalBody .Half2{
+    width:50%;
+}
+
+#modalBody .Half2 .Properties{
+    height: 50%;
+}
+
+#modalBody .Half2 .Properties p{
+    font-size: 2vmax;
+    margin-bottom: 0px;
+}
+
+#modalBody .Half2 .Properties .Rating{
+    display:flex;
+}
+
+#modalBody .Half2 .Properties .Rating .Stars span{
+    font-size: 2vmax;
+    color: #f1c40f;
+}
+
+#modalBody .Half2 .Note{
+    height:40%;
+    margin-left:10%;
+    margin-top:10%;
+}
+
+#modalBody .Half2 .Note textarea{
+    border: 0.2vmax solid #A9493C;
+    height:50%;
+    width:80%;
+    font-weight: 500;
+    font-size: 1.3vmax;
+}
+
+
+#modalFooter #orderButton{
+    background-color: #A9493C;
+    width:auto;
+    color: cornsilk;
+    font-size: 1.5vmax;
+    border: 0.1vmax solid #A9493C;
+    border-radius: 1vmax;
+}
+

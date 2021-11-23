@@ -1,0 +1,33 @@
+#HeaderCart{
+    background-color:#A9493C;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    overflow: hidden;
+    padding-left: 5%;
+}
+#HeaderCart #nav {
+    width:90%;
+}
+#HeaderCart  ul{
+   padding-left: 0px;
+}
+#HeaderCart #nav li{
+    display: inline-block;
+    color: cornsilk;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: #A9493C;  
+    text-align: left;
+    margin-right: 8.5%;
+}
+
+#HeaderCart #Fabars-icon{
+    width: auto;
+    float: right;
+    margin-right: 10px;
+    font-size: 30px;
+}

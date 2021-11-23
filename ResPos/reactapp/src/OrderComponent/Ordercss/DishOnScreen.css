@@ -1,0 +1,20 @@
+.rounded{
+    background-color: #FFFAE7 !important;
+}
+.card-title{
+    text-align: center;
+}
+h3.card-text{
+    border-top:#A9493C ;
+    text-align: center;
+}
+.card-body{
+    text-align: end;
+    border-top: 2px #A9493C solid;
+}
+#Orderbtn{
+background-color: #A9493C;
+border: #A9493C;
+height: 50px;
+width: 100px;
+}

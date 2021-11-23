@@ -1,0 +1,43 @@
+#Header-OrderScreen{
+    background-color:#A9493C;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    overflow: hidden;
+}
+#Header-OrderScreen #nav {
+    width: calc(100% - 80px);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#Header-OrderScreen ul{
+    padding-left: 0;
+}
+#Header-OrderScreen #nav li{
+    display: inline-block;
+    color: #FFFAE7;
+    font-size: 25px;
+    padding-right: 1.5%;
+    line-height: 50px;
+    margin-right: 4.3%;
+}
+#Header-OrderScreen #nav li input{
+    margin-right: 10px;
+    width: 60%;
+    line-height: 60%;
+}
+#Header-OrderScreen #Home-icon{
+    width: 80px;
+    float: left;
+    margin-left: 10px;
+    font-size: 40px;
+}
+#Header-OrderScreen #Fabars-icon{
+    width: auto;
+    float: right;
+    margin-right: 10px;
+    font-size: 30px;
+}

@@ -1,0 +1,40 @@
+.changeQuantity button{
+    width:auto;
+    border: 0.25vmax solid #A9493C;
+    background-color: #A9493C;
+    color: cornsilk;
+    font-size: 1.7vmax;
+}
+
+.changeQuantity button:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+}
+
+.changeQuantity input{
+    text-align: center;
+    border: 0.25vmax solid #A9493C;
+    background-color: cornsilk;
+    font-weight: 700;
+    color: #A9493C;
+    width:25%;
+}
+#toppingSelection{
+    background-color: cornsilk;
+    color: #A9493C;
+    border: 0.15vmax solid #A9493C;
+    width: auto;
+    font-size: 1.2vmax;
+    font-weight: 600;
+}
+#deleteItem {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    font-size: 1.8vmax;
+    color: #A9493C;
+}
+#propertiesOnCart{
+    margin-top: auto;
+    margin-bottom: auto;
+}

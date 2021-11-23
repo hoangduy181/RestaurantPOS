@@ -1,0 +1,21 @@
+@media (min-width:1024px) {
+    #HeaderCart #Fabars-icon{
+        display: none;
+    }
+    #HeaderCart{
+        height: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width:1023px){
+    #HeaderCart #Fabars-icon{
+        display: block;
+    }
+    #HeaderCart #nav li{
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    #Header-OrderScreen #nav li,#HeaderCart #nav li{
+        display: block;
+    }
+}

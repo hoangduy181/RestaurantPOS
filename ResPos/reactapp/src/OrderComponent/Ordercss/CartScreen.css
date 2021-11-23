@@ -1,0 +1,117 @@
+.cartScreen{
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:wheat ;
+}
+
+.yourCart{
+    left: 0;
+    right: 0;
+    top: 50px;
+    z-index:2;
+    position: fixed;
+    background-color: #A9493C;
+    color:cornsilk;
+    height: 50px;
+    padding-left: 5%;
+}
+
+.itemList{
+    background-color: #A9493C;
+    margin-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 820px;
+}
+.totalMoney{
+    width: 100%;
+    padding-left:   5%;
+    padding-right:  5%;
+    background-color: #A9493C;
+    padding-top: 0.25vmax;
+    padding-bottom: 0.25vmax;
+}
+ .itemList .row > *{
+    padding-left: 0;
+    padding-right: 0;
+}
+.itemList .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.itemList h1{
+    background-color: cornsilk;
+    height: 820px;
+    width: 100%;
+    text-align: center;
+    line-height: 820px;
+}
+.itemList #priceOnCart{
+    margin-left: 4%;
+}
+
+.itemList #priceOnCart h3{
+    font-size: 1.7vmax;
+}
+
+.itemList #quantityOnCart{
+    margin-left: 5%;
+}
+
+.itemList #quantityOnCart h3{
+    color: #A9493C;
+    font-size: 1.7vmax;
+    margin-bottom: 14%;
+    padding-left: 10%;
+}
+
+.itemList #totalMoneyOnDish{
+    margin-left: 3%
+}
+
+#totalMoneyOnDish h3{
+    font-size: 1.7vmax;
+}
+
+#totalMoneyforPayment{
+    background-color: cornsilk;
+    display: flex;
+}
+
+#totalMoneyforPayment h3{
+    font-size: 1.8vmax;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 4vmax;
+    text-align: end;
+}
+
+#totalMoneyforPayment #paymentButton{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: end;
+}
+
+#totalMoneyforPayment button{
+    background-color: #A9493C;
+    color: cornsilk;
+    width: auto;
+    font-size: 2vmax;
+    border: 0.25vmax solid #A9493C;
+    border-radius: 2vmax;
+    margin-right: 25px;
+}
+
+#totalMoneyforPayment button:active{
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+}
+
+.cartFooter{
+    background-color: black;
+}
