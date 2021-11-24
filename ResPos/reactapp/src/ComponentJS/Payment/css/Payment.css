@@ -1,0 +1,195 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+/* ::-webkit-scrollbar-thumb{
+    background-color:wheat ;
+} */
+
+.body {
+    background-color: #A9493C;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Payment-header {
+    display: flex;
+    justify-content: space-between;
+    height: 74px;
+    margin-top: 50px;
+}
+
+.Payment-title{
+    display: flex;
+    height: 77px;
+    margin: auto;
+}
+
+.Payment-title p{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 900;
+    font-family: Roboto;
+    text-align: center;
+    color: #FBE09A;
+    margin: auto;
+}
+
+.Payment-content {
+    width: 1409px;
+    background: #FFFAE7;
+    margin: auto;
+    height: 800px;
+}
+
+.Payment-voucher {
+    height: 175px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.13);
+}
+
+.use-voucher {
+    padding-top: 30px;
+}
+
+.use-voucher label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #A9493C;
+    padding-left: 198px;
+}
+
+.use-voucher input {
+    background: #FFFFFF;
+    border: 4px solid #A9493C;
+    box-sizing: border-box;
+    width: 442px;
+    height: 56px;
+    margin-left: 140px;
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+.not-available {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 80px;
+}
+
+.use-point {
+    padding: auto;
+    padding-top: 10px;
+}
+
+.use-point label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    color: #A9493C;
+    margin-top: 30px;
+}
+
+.use-point input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    margin: auto 30px auto 15px;
+}
+
+.hr hr{
+    width: 90%;
+    height: 0.3px;
+    border-width: 0;
+    background-color: #A9493C;
+    margin-top: 0;
+}
+
+.p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #A9493C;
+    margin-left: 70.45px;
+}
+
+.boxed {
+    margin-left: 70.45px;
+}
+
+.boxed label {
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    border: solid 4px #A9493C;
+    border-radius: 14px;
+    transition: all 0.3s;
+    text-align: center;
+    margin: 20px;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 35px;
+    color: #A9493C;
+    cursor: pointer;
+}
+
+.boxed input[type="radio"] {
+    display: none;
+}
+
+.boxed input[type="radio"]:checked+label {
+    border: solid 2px #A9493C;
+    background-color: #A9493C;
+    color: white
+}
+
+.Payment-money {
+    display: flex;
+    justify-content: right;
+    margin-right: 130px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #A9493C;
+}
+
+.Payment-money-left {
+    text-align: right;
+}
+
+.Payment-money-rigth {
+    width: 300px;
+    text-align: right;
+}
+
+.Payment-money hr {
+    width: 100%;
+}
+
+.submit input {
+    width: 383px;
+    padding: 15px 5px;
+    color: white;
+    background-color: #A9493C;
+    font-size: 36px;
+    line-height: 42px;
+    float: right;
+    margin-right: 150px;
+    border-radius: 35px;
+}
