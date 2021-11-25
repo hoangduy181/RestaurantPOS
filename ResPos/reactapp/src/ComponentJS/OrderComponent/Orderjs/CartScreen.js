@@ -68,7 +68,7 @@ export default function CartScreen() {
                             </Col>
                             <Col as='div' id="paymentButton" xs={5} sm={3} md={3} lg={3} xl={3}>
                                 {/* LINK tới trang thanh toán */}
-                                <Link to="/"> <button>THANH TOÁN</button> </Link>
+                                <Link to="/Payment"> <button>THANH TOÁN</button> </Link>
                             </Col>
                     </Col>
             </div>

@@ -1,0 +1,1 @@
+alert("Xin cảm ơn quý khách! Chúc quý khách ngon miệng");

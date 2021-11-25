@@ -117,4 +117,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-ResPos/reactapp/src/ComponentJS/Payment/js/Payment.js
