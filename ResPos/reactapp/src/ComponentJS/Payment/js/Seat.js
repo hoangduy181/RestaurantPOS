@@ -82,7 +82,7 @@ class Seat extends React.Component {
         </div>
     )
   }
-}
+} 
 
 class DrawGrid extends React.Component {
   render() {
